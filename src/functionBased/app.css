@@ -62,3 +62,8 @@ body {
   outline: none;
   border: none;
 }
+
+.input-submit svg {
+  font-size: 20px;
+  margin-top: 2px;
+}
