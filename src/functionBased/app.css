@@ -11,6 +11,7 @@ body {
   background: #fff;
   height: 100vh;
 }
+
 .container {
   display: flex;
   flex-direction: column;
@@ -69,7 +70,7 @@ body {
 }
 
 .active-link {
-  color: white;
+  color: black;
   text-decoration: underline;
 }
 
@@ -83,7 +84,8 @@ body {
   top: 40px;
   z-index: 10;
   cursor: pointer;
-  background: transparent;;
+  background: transparent;
+  ;
   border: none;
 }
 
@@ -153,5 +155,5 @@ a {
 
 .main__content p {
   line-height: 25px;
+  width: 62%;
 }
-
