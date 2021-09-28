@@ -1,5 +1,7 @@
 # To-Dos App
 
+![image](https://user-images.githubusercontent.com/74506933/135165903-d29d1c51-8a7a-4598-9c71-e2037e5ea4f5.png)
+
 
 Additional description about the project and its features.
 
