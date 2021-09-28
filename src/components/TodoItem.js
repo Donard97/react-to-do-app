@@ -19,6 +19,10 @@ import styles from "./TodoItem.module.scss"
       }
     }
 
+    componentWillUnmount() {
+      console.log("Cleaning up...")
+    }
+
     render () {
       const completedStyle = {
         fontStyle: "italic",
