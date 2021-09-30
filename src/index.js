@@ -1,6 +1,15 @@
-import React from "react"
-import ReactDOM from "react-dom"
+import React from 'react';
+import ReactDOM from 'react-dom';
+import { BrowserRouter as Router } from 'react-router-dom';
+import TodoContainer from './functionBased/components/ToDoContainer';
+import './functionBased/app.css';
 
-const element = <h1>Hello from Create React App</h1>
+ReactDOM.render(
+  <React.StrictMode>
+    <Router basename={process.env.PUBLIC_URL}>
+      <TodoContainer />
+    </Router>
+  </React.StrictMode>,
 
-ReactDOM.render(element, document.getElementById("root"))
+  document.getElementById('root'),
+);
